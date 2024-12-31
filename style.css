@@ -10,7 +10,7 @@
 /* banner section styles starts here */
 .banner-container {
   /* border: 2px solid red; */
-  border-radius: 12px;
+  border-radius: 16px;
   max-width: 1320px;
   min-height: 600px;
   /* margin-left: 140px;
@@ -111,5 +111,89 @@
   width: 802.9px;
   height: 500px;
 }
-
 /* OFF section styles starts here */
+
+/* midnight party section styles starts here */
+.midnight-party-container {
+  border-radius: 16px;
+  max-width: 1320px;
+  height: 600px;
+  margin: 0 auto;
+  margin-bottom: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: linear-gradient(90deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url("./assets/vector.png"); */
+  background-image: url("./assets/vector.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
+}
+
+.midnight-party-left-content {
+  height: 100%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.midnight-party-left-content h3 {
+  width: 642px;
+  height: 176px;
+  color: white;
+  font-family: "Merriweather";
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 11%;
+  text-align: left;
+  margin-top: 126px;
+  margin-bottom: 24px;
+  margin-left: 126px;
+}
+
+.midnight-party-left-content p {
+  width: 697px;
+  height: 60px;
+  color: white;
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 48px;
+  margin-left: 126px;
+}
+
+.midnight-party-left-content span {
+  width: 103px;
+  height: 24px;
+  color: white;
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  margin-left: 158px;
+}
+
+.midnight-party-right-content {
+  height: 100%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.midnight-party-right-content img {
+  width: 349.16px;
+  height: 464.65px;
+  margin-left: 40px;
+  background: transparent;
+}
+/* midnight party section styles ends here */
