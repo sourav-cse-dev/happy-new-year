@@ -374,3 +374,140 @@
   margin-left: 120px;
 }
 /* best-offer section style ends here  */
+
+/* holiday-dale section starts here */
+.holiday-sale-container {
+  border: 2px solid red;
+  width: 1320px;
+  height: 986.07px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 120px;
+}
+
+.holiday-sale-upper-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.holiday-sale-upper-content p {
+  width: 263px;
+  height: 29px;
+  color: rgb(7, 2, 17);
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.holiday-sale-upper-content h5 {
+  width: 677px;
+  height: 91px;
+  color: rgb(7, 2, 17);
+  font-family: "Merriweather";
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 91px;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.event-label {
+  color: red;
+}
+
+.holiday-sale-upper-content h6 {
+  width: 1068px;
+  height: 96px;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+.holiday-sale-lower-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.holiday-sale-lower-left-content {
+  border: 2px solid black;
+  width: 60%;
+  height: 100%;
+}
+
+.holiday-sale-lower-right-content {
+  border: 2px solid black;
+  width: 40%;
+  height: 100%;
+}
+/* holiday-dale section ends here */
+
+/* portfolio section styles starts here */
+.portfolio-container {
+  border: 2px solid red;
+  width: 1320px;
+  height: 1163px;
+  margin: 0 auto;
+}
+
+.portfolio-upper-content p {
+  width: 192px;
+  height: 29px;
+  color: rgb(255, 0, 0);
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 16px;
+}
+
+.portfolio-upper-content h5 {
+  width: 566px;
+  height: 60px;
+  color: rgb(7, 2, 17);
+  font-family: "Merriweather";
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+  margin-bottom: 22px;
+}
+
+.portfolio-upper-content h6 {
+  width: 896px;
+  height: 64px;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 48px;
+}
+
+.portfolio-lower-content {
+  border: 2px solid black;
+  width: 1320px;
+  height: 1163px;
+}
+/* portfolio section styles ends here */
